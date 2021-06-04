@@ -1,0 +1,313 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>LiveScore 2.0 - Football android app</title>
+	
+	<meta name="description" content="This a mobile store app that is powered by a woocommerce website. Woocommerce is powered by wordpress">
+	<meta name="author" content="Aaron">
+	<meta name="copyright" content="Aaron">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2019-10-12T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #008C9E #008C9E #bfbfbf;
+		  background-color: #006673;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-LiveScore">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">LiveScore 2.0</a></li>
+				
+			<li><a href="#start" title="Start">Start</a></li>
+			<li><a href="#introduction" title="Introduction">Introduction</a></li>
+			<li><a href="#features" title="Features">Features</a></li>
+			<li><a href="#setting_up_android_studio" title="Setting up android studio">Setting up android studio</a></li>
+			<li><a href="#running_LiveScore_app" title="Running LiveScore app">Running Livescore app</a></li>
+			<li><a href="#customizing_app" title="Customizing app">Customizing app</a></li>
+			<li><a href="#changelog" title="Changelog">Changelog</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Aaron 2019<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>LiveScore 2.0</h1>
+	<h2>Football android app</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 04/20/2019</li>
+	<li>latest update: 19/25/2019</li>
+	<li>by: Aaron</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:r&#111;&#110;&#111;&#108;&#105;&#107;&#101;&#97;&#97;&#114;&#111;&#110;&#57;&#48;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">r&#111;&#110;&#111;&#108;&#105;&#107;&#101;&#97;&#97;&#114;&#111;&#110;&#57;&#48;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you for purchasing our product. This documentation will help you setup the project within few minutes.</p>
+	</section>
+	
+	<section id="start">
+	<div class="page-header"><h3>Start</h3><hr class="notop"></div>
+<h1 style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 30px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	LiveScore 2.0 android app</h1>
+<h2 style="margin: 0px 0px 18px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-size: 20px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	Mobile soccer android app</h2>
+<div id="documenter_buttons" style="margin: -30px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; position: absolute; right: 10px; color: rgb(56, 56, 56);">
+	&nbsp;</div>
+<hr style="height: 0px; line-height: 0px; border-right: 0px; border-left: 0px; border-image: initial; border-top-style: solid; border-top-color: rgb(235, 235, 235); border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); margin: 16px 0px; padding: 0px; clear: both; float: none; color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Created:10/12/2019</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		latest Update: 12/25/2019</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		By: Aaron Rono</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Email:&nbsp;<a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#98;&#101;&#115;&#116;&#115;&#111;&#102;&#116;&#105;&#110;&#99;&#46;&#99;&#111;&#109;" style="font-family: inherit; font-style: inherit; font-weight: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration-line: none; cursor: pointer;">r</a>&#111;&#110;&#111;&#108;&#105;&#107;&#101;&#97;&#97;&#114;&#111;&#110;&#57;&#48;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</li>
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		Twitter: &nbsp;https://twitter.com/Aroniez</li>
+</ul>
+</section>
+<section id="introduction">
+	<div class="page-header"><h3>Introduction</h3><hr class="notop"></div>
+<p>
+	Livescore 2.0 is a football android app that enables users to follow livescores and read on soccer news.</p>
+<p>
+	This project is under active development so keep an eye on updates. We are constantly working on ways to improve it in every possible way.</p>
+<p>
+	This is detailed documentation of the peoject, however, is there is a section that you will find it hard to understand please contact us via email in support section at the end.&nbsp;</p>
+<p>
+	We also offer installation and customization services as follows.&nbsp;</p>
+<ol>
+	<li>
+		Android basic setup is $25 &nbsp;which involves the following ONLY:</li>
+</ol>
+<ul style="margin-left: 40px;">
+	<li>
+		Change of app name</li>
+	<li>
+		change of package name</li>
+	<li>
+		change of launcher icons</li>
+	<li>
+		Signing of apk</li>
+</ul>
+<p>
+	For other customization services like redesigning app, adding/removing of features, contact us so that we can give you affordable price quote.</p>
+</section>
+<section id="features">
+	<div class="page-header"><h3>Features</h3><hr class="notop"></div>
+<h2 id="requirements" style="margin: 30px 0px 15px; padding: 0px 0px 7px; border-width: 0px 0px 2px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(204, 204, 204); border-left-color: initial; border-image: initial; outline: 0px; font-size: 24px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Key Features</h2>
+<ul>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		Beautiful Material Design</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		Favorites matches</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		Soccer news</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		User guide in documentation</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		Continuous update and ready support/customization</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		Plus more</li>
+</ul>
+</section>
+<section id="setting_up_android_studio">
+	<div class="page-header"><h3>Setting up android studio</h3><hr class="notop"></div>
+<p>
+	If you have android studio installed and running then skip to next section.</p>
+<h2 id="requirements" style="margin: 30px 0px 15px; padding: 0px 0px 7px; border-width: 0px 0px 2px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(204, 204, 204); border-left-color: initial; border-image: initial; outline: 0px; font-size: 24px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Requirements</h2>
+<ul>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		Latest&nbsp;<a href="http://developer.android.com/sdk/index.html" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: rgb(184, 0, 0); text-decoration-line: none;">Android studio ADT Bundle</a></li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		Windows XP (32-bit), Vista (32- or 64-bit), Windows 7 (32- or 64-bit), Windows 8/8.1 (32- or 64-bit), Windows 10 (32- or 64-bit)</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		Mac OS X 10.5.8 or later (x86 only)</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		Linux (tested on Ubuntu Linux, Lucid Lynx)</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		GNU C Library (glibc) 2.7 or later is required.</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+		On Ubuntu Linux, version 8.04 or later is required. 64-bit distributions must be capable of running 32-bit applications.</li>
+</ul>
+<h1 id="getting-started" style="margin: 15px 0px 25px; padding: 0px; border: 0px; outline: 0px; font-size: 32px; vertical-align: baseline; background: transparent; line-height: 35px; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Getting started</h1>
+<p style="margin: 15px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	To try the app you need to follow a few simple steps:</p>
+<h2 id="install-Android Studio" style="margin: 30px 0px 15px; padding: 0px 0px 7px; border-width: 0px 0px 2px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(204, 204, 204); border-left-color: initial; border-image: initial; outline: 0px; font-size: 24px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Step 1: Intalling the latest version of Android Studio ADT.</h2>
+<p style="margin: 15px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	LiveScore is built with the latest Android Studio version 2.3.3 and Android Development Tools 26.0.0. NOTE: Android has officially stopped the development of eclipse ADT so its highly recommended that you migrate to Android Studio. If you do have Android Studio already installed you can skip installation of Android Studio section and go to Import sections. However, We would still advise you to install the Android Studio ADT all the same.</p>
+<ol style="margin: 0px 0px 0px 30px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; list-style-position: initial; list-style-image: initial; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Go to the&nbsp;<a href="http://developer.android.com/sdk/index.html" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: rgb(184, 0, 0); text-decoration-line: none;">Android Developer Page</a></li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Download the Android Studio ADT. This should contain the latest version of ADT plugin</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Extract the files somewhere on your computer.</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Run Android Studio.exe</li>
+</ol>
+<p style="margin: 15px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Once done, you should be able to have android studio running</p>
+<h2 id="import-projects-in-adt-bundle" style="margin: 30px 0px 15px; padding: 0px 0px 7px; border-width: 0px 0px 2px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(204, 204, 204); border-left-color: initial; border-image: initial; outline: 0px; font-size: 24px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Step 2 Import LiveScore Project to Android Studio</h2>
+<ol style="margin: 0px 0px 0px 30px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; list-style-position: initial; list-style-image: initial; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		On Android Studio go to File -&gt; New -&gt; Import Project</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Choose Android -&gt; Existing Android Code Into Workspace then click Next</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Browse to the location of the folder called source folder, LiveScore.</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Allow the project to build. Working network will be required while building the project</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Once build is over, It will indicate if there is any error. No error means that you are good to go</li>
+</ol>
+<p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+	You&#39;ll see the following screen (probably with white theme)</p>
+<p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+	<img alt="" src="http://ivan.fantasticno.com/demo/graphics/as.PNG"></p>
+<p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+	If there is some errors, try to clean and rebuild the project. They are located in Build menu</p>
+</section>
+<section id="running_LiveScore_app">
+	<div class="page-header"><h3>Running LiveScore app</h3><hr class="notop"></div>
+<h2 id="run" style="margin: 30px 0px 15px; padding: 0px 0px 7px; border-width: 0px 0px 2px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(204, 204, 204); border-left-color: initial; border-image: initial; outline: 0px; font-size: 24px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Run LiveScore</h2>
+<ol style="margin: 0px 0px 0px 30px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; list-style-position: initial; list-style-image: initial; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		You can run your android applications on your phone or emulator. Start the emulator or plugin the phone into the computer.</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Click on Run menu and select Run command</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		In the next dialog, you should see the phone you plugged in as one of the devices. If you phone is not indicated then the phone drivers is not installed on the computer.</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Android Studio will launch an emultaor if no device is found.</li>
+</ol>
+</section>
+<section id="customizing_app">
+	<div class="page-header"><h3>Customizing app</h3><hr class="notop"></div>
+<h2 id="change-launcher-icon" style="margin: 30px 0px 15px; padding: 0px 0px 7px; border-width: 0px 0px 2px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(204, 204, 204); border-left-color: initial; border-image: initial; outline: 0px; font-size: 24px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Change Launcher icon</h2>
+<p style="margin: 15px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Replace the following files in the&nbsp;<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">res</code>&nbsp;folder, with your own icon named&nbsp;<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">ic_launcher.png</code>&nbsp;:</p>
+<ul style="margin: 0px 0px 0px 30px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; list-style-position: initial; list-style-image: initial; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">res/mipmap-hdpi/ic_launcher.png</code>&nbsp;with 72x72 px</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">res/mipmap-mhdpi/ic_launcher.png</code>&nbsp;with 96x96 px</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">res/mipmap-xhdpi/ic_launcher.png</code>&nbsp;with 144x144 px</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">res/mipmap-xxhdpi/ic_launcher.png</code>&nbsp;with 192x192 px</li>
+</ul>
+<p style="margin: 15px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">Note:</strong>&nbsp;You need the 512x512 px size for publishing to Google Play.</p>
+<h2 id="change-application-name" style="margin: 30px 0px 15px; padding: 0px 0px 7px; border-width: 0px 0px 2px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(204, 204, 204); border-left-color: initial; border-image: initial; outline: 0px; font-size: 24px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Change Applcation name</h2>
+<p style="margin: 15px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	The application name can be changed from the&nbsp;<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">strings.xml</code>&nbsp;file in the values folder.</p>
+<ol style="margin: 0px 0px 0px 30px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; list-style-position: initial; list-style-image: initial; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Open the&nbsp;<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">res</code>&nbsp;folder</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Navigate to the values folder and open the strings.xml file</li>
+	<li style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+		Change the&nbsp;<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">app_name</code>&nbsp;value to the name you want</li>
+</ol>
+<h2 id="changing-package-name" style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;margin: 30px 0px 15px; padding: 0px 0px 7px; border-width: 0px 0px 2px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(204, 204, 204); border-left-color: initial; border-image: initial; outline: 0px; font-size: 24px; vertical-align: baseline; background: transparent;">
+	Changing package name</h2>
+<p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;margin: 15px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+	Every application in Google Play has an unique application name usually in the form of&nbsp;<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">com.example.app</code>. Before you can publish your application you need to change the application name to something unique (like use your domain as prefix in reverse order). To change it, you need to:</p>
+<p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;margin: 15px 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent;">
+	follow this link&nbsp;<a href="https://stackoverflow.com/a/29092698/3512346">https://stackoverflow.com/a/29092698/3512346</a></p>
+<h2 id="change-color-theme" style="margin: 30px 0px 15px; padding: 0px 0px 7px; border-width: 0px 0px 2px; border-top-style: initial; border-right-style: initial; border-bottom-style: solid; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(204, 204, 204); border-left-color: initial; border-image: initial; outline: 0px; font-size: 24px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	Changing the application colors</h2>
+<p style="margin: 15px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; background: transparent; color: rgb(68, 68, 68); font-family: Helvetica, Arial, sans-serif;">
+	All the colors of the app are changed in the&nbsp;<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">colors.xml</code>&nbsp;file. Head over to&nbsp;<a href="http://materialpalette.com/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: rgb(184, 0, 0); text-decoration-line: none;">Material Palette</a>&nbsp;site for clor choices or examples and pick your color blend. After that download the xml file of the chosen colors and copy them to&nbsp;<code style="margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; background: transparent; color: teal; overflow: auto;">colors.xml</code>.</p>
+</section>
+<section id="changelog">
+	<div class="page-header"><h3>Changelog</h3><hr class="notop"></div>
+<div class="page-header" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+	<h3 style="margin: 18px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-style: inherit; font-size: 26px; font-family: inherit; vertical-align: baseline;">
+		Changelog</h3>
+</div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">v1.0 (04/20/2019) :</span></p>
+<ul style="margin: 18px 0px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	<li style="margin: 0px 0px 0px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; list-style: square;">
+		initial release</li>
+</ul>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+	If you need any help regarding the installation of the script please contact us via r&#111;&#110;&#111;&#108;&#105;&#107;&#101;&#97;&#97;&#114;&#111;&#110;&#57;&#48;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;.&nbsp;</p>
+</section>
+
+	</div>
+</body>
+</html>
